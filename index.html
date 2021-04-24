@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html land="lv">
 <head>
-    <link rel="stylesheet" href="mainCSS.css">
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="CSS/mainCSS.css">
     <title>Iepirkumi</title>
 </head>
     <body>
-        <script href="mainScripts.js"></script>   
-
-        <h1>Iepirkumu saraksts</h1>
-    
+          
+        <h1>Darāmo darbu saraksts</h1>
+        
+        
         <form id="form">
-            <h3>Pievienot jaunu pirkumu</h3>
+            <h3>Pievienot jaunu darbu</h3>
             <input type="text" id="kasJadara" placeholder="Darbs">
-            <input type="text" id="kadJaizdara" placeholder="Laiks">
-            <button type="submit" id="pievienotPirkumu">Pievienot pirkumu</button>
+            <input type="date" id="kadJaizdara" placeholder="Laiks">
+            <button type="submit" id="pievienotDarbu">Pievienot</button>
         </form>
-
+        
+        
         <div id="saraksts">
         
         </div>
 
+        <script src="JS/mainScripts.js"></script> 
     </body>
 </html>
