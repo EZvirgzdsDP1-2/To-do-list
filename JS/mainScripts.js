@@ -18,7 +18,15 @@ document.getElementById('pievienotDarbu').addEventListener('click', () =>{
     paradi();
 })
 
-//<li><h3>Kad jāizdara: ${lietotajaDarbi[x].kadJaizdara}</h3></li>
+
+function darbaIzdzesana(){
+    
+    lietotajaDarbi=[];
+
+    paradi();
+
+}
+
 function paradi(){
     let visiDarbi = document.getElementById('saraksts');
     visiDarbi.innerHTML = "";
